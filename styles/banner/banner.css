@@ -1,0 +1,28 @@
+.banner {
+  width: 100%;
+  padding: 236px 0 280px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url("/images/header-background.jpg") center center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("/images/header-background.jpg") center center/cover no-repeat;
+}
+
+.banner-textContainer {
+  text-align: center;
+}
+
+.banner-textContainer h1 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.banner-textContainer p {
+  width: 55%;
+  margin: 0 auto;
+  color: #dfe5ec;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,43 @@
+.advantages {
+  width: 100%;
+  padding: 48px 0 86px 0;
+}
+
+.advantages ul {
+  list-style: none;
+}
+
+.advantages-item {
+  width: 30%;
+}
+
+.advantages-text {
+  margin-top: 110px;
+}
+
+.advantages-text h3 {
+  margin-bottom: 15px;
+}
+
+.advantages-image {
+  position: relative;
+}
+
+.advantages-image .hexagon {
+  top: 0;
+  left: 0;
+  width: 96px;
+  height: 96px;
+}
+
+.advantages-image .fa-binoculars,
+.advantages-image .fa-list-alt,
+.advantages-image .fa-chart-pie {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 32px;
+  color: #fff;
+  z-index: 2;
+}
+/*# sourceMappingURL=advantages.css.map */

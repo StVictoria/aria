@@ -1,0 +1,67 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 42px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 34px 80px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  z-index: 100;
+}
+
+.header.fixed {
+  background-color: #113448;
+  padding: 6px 80px;
+}
+
+.header-logoImage {
+  width: 113px;
+  height: 32px;
+  background: url("/images/logo.svg") center center/contain no-repeat;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header ul li {
+  margin-bottom: 0;
+}
+
+.header-navItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header-navLink {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.header-navLink:hover, .header-navLink.active {
+  color: #14bf98;
+}
+
+.header .fa-facebook-f {
+  left: 8px;
+  top: 8px;
+}
+
+.header .fa-twitter {
+  right: 7px;
+  top: 8px;
+}
+/*# sourceMappingURL=header.css.map */

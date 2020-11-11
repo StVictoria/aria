@@ -1,0 +1,63 @@
+@import "../_constants/constants.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 42px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 34px 80px;
+  transition: $transition_1;
+  z-index: 100;
+
+  &.fixed {
+    background-color: $blue_color_dark;
+    padding: 6px 80px;
+  }
+  //   Logo
+
+  &-logoImage {
+    width: 113px;
+    height: 32px;
+    background: url("/images/logo.svg") center center / contain no-repeat;
+  }
+
+  //   Navigation
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 0;
+    }
+  }
+
+  &-navItem:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &-navLink {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: $transition_1;
+
+    &:hover,
+    &.active {
+      color: $green_color;
+    }
+  }
+
+  .fa-facebook-f {
+    left: 8px;
+    top: 8px;
+  }
+  .fa-twitter {
+    right: 7px;
+    top: 8px;
+  }
+}

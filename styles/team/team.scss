@@ -1,0 +1,56 @@
+@import "../_constants/constants.scss";
+
+.team {
+  text-align: center;
+  background-color: $grey_background;
+  padding: 102px 0 54px 0;
+
+  &-description {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 56px;
+  }
+
+  &-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-photo {
+    margin-bottom: 24px;
+    overflow: hidden;
+
+    img {
+      transition: $transition_2;
+      &:hover {
+        transform: scale(1.15);
+      }
+    }
+  }
+
+  &-content {
+    p {
+      margin-bottom: 4px;
+    }
+    strong {
+      margin-bottom: 12px;
+    }
+  }
+
+  .socialLinks {
+    .hexagon {
+      width: 28px;
+      height: 28px;
+    }
+
+    .fa-facebook-f {
+      left: 10px;
+      top: 10px;
+    }
+    .fa-twitter {
+      right: 9px;
+      top: 10px;
+    }
+  }
+}

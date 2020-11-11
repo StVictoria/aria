@@ -1,0 +1,99 @@
+.contact {
+  background-color: #fbfbfb;
+  padding: 110px 0;
+}
+
+.contact a {
+  color: #787976;
+  text-decoration: underline;
+}
+
+.contact-text {
+  width: 46%;
+}
+
+.contact-text p {
+  margin-bottom: 16px;
+}
+
+.contact ul {
+  list-style: none;
+  margin-bottom: 36px;
+}
+
+.contact-socials {
+  width: 80%;
+}
+
+.contact .hexagon {
+  width: 52px;
+  height: 52px;
+}
+
+.contact .social-icon {
+  font-size: 24px;
+  top: 14px;
+  left: 14px;
+}
+
+.contact .fa-facebook-f,
+.contact .fa-linkedin-in {
+  left: 17px;
+}
+
+.contact .fa-instagram {
+  left: 15px;
+}
+
+.contact-form {
+  width: 47%;
+}
+
+.contact-form .formGroup {
+  position: relative;
+  font-size: 14px;
+  color: #787976;
+}
+
+.contact-form .formInput,
+.contact-form .formTextarea {
+  width: 100%;
+  padding: 20px 2px 4px 21px;
+  -webkit-box-sizing: unset;
+          box-sizing: unset;
+  margin-bottom: 20px;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+
+.contact-form .formInput:focus + label,
+.contact-form .formTextarea:focus + label {
+  top: 2px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.contact-form label {
+  position: absolute;
+  top: 15px;
+  left: 22px;
+  margin-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  cursor: text;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.contact-form .formGroup.checkbox {
+  margin-bottom: 20px;
+}
+
+.contact-form .checkboxInput {
+  margin-right: 6px;
+}
+
+.contact-form .submitButton {
+  width: 100%;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,40 @@
+@import "../_constants/constants.scss";
+
+.footer {
+  width: 100%;
+  background-color: $blue_color_dark;
+  padding-top: 80px;
+
+  h4 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  p,
+  a,
+  section {
+    color: #ebe8e8;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  a {
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  &-aboutArea {
+    width: 40%;
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 52px 0 24px 0;
+    text-align: center;
+  }
+}

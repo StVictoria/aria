@@ -1,0 +1,31 @@
+.about {
+  padding: 100px 0;
+}
+
+.about-image {
+  width: 46%;
+  height: auto;
+  overflow: hidden;
+}
+
+.about-image img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+.about-text {
+  width: 47%;
+  margin-bottom: 16px;
+  padding-right: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about-text p {
+  margin-bottom: 16px;
+}
+
+.about-infoList {
+  margin-bottom: 36px;
+}
+/*# sourceMappingURL=about.css.map */

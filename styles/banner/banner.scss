@@ -1,0 +1,28 @@
+@import "../_constants/constants.scss";
+
+.banner {
+  width: 100%;
+  padding: 236px 0 280px 0;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("/images/header-background.jpg") center center / cover no-repeat;
+
+  &-textContainer {
+    text-align: center;
+
+    h1 {
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    p {
+      width: 55%;
+      margin: 0 auto;
+      color: #dfe5ec;
+      font-weight: 400;
+      font-size: $mid_size;
+      margin-bottom: 32px;
+    }
+  }
+}

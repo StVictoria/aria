@@ -1,0 +1,70 @@
+@import "../_constants/constants.scss";
+
+.mainInfo {
+  width: 100%;
+  &-image {
+    width: 50%;
+    height: 554px;
+
+    &.block1 {
+      background: url("/images/details-1-background.jpg") center center / cover
+        no-repeat;
+    }
+
+    &.block2 {
+      background: url("/images/details-2-background.jpg") center center / cover
+        no-repeat;
+    }
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 100px 225px 100px 80px;
+    box-sizing: border-box;
+
+    h2 {
+      margin-bottom: 26px;
+    }
+  }
+
+  &-accordionButton {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    color: $black_color;
+    font-weight: 400;
+    font-size: $mid_size;
+    margin-bottom: 32px;
+    outline-style: none;
+    transition: $transition_1;
+
+    &:hover {
+      h3,
+      .mainInfo-circleNum {
+        color: $green_color;
+        border-color: $green_color;
+      }
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  &-circleNum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    font-weight: 700;
+    font-size: $mid_size;
+    margin-right: 14px;
+    border: 2px solid $black_color;
+    border-radius: 50%;
+    transition: $transition_1;
+  }
+}

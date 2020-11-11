@@ -1,0 +1,96 @@
+@import "../_constants/constants.scss";
+
+.contact {
+  background-color: $grey_background;
+  padding: 110px 0;
+
+  a {
+    color: $grey_color;
+    text-decoration: underline;
+  }
+
+  &-text {
+    width: 46%;
+
+    p {
+      margin-bottom: 16px;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    margin-bottom: 36px;
+  }
+  &-socials {
+    width: 80%;
+  }
+
+  .hexagon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .social-icon {
+    font-size: 24px;
+    top: 14px;
+    left: 14px;
+  }
+
+  .fa-facebook-f,
+  .fa-linkedin-in {
+    left: 17px;
+  }
+
+  .fa-instagram {
+    left: 15px;
+  }
+
+  &-form {
+    width: 47%;
+
+    .formGroup {
+      position: relative;
+      font-size: 14px;
+      color: $grey_color;
+    }
+
+    .formInput,
+    .formTextarea {
+      width: 100%;
+      padding: 20px 2px 4px 21px;
+      box-sizing: unset;
+      margin-bottom: 20px;
+      border: 1px solid $grey_color_mid;
+      border-radius: 4px;
+
+      &:focus + label {
+        top: 2px;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+
+    label {
+      position: absolute;
+      top: 15px;
+      left: 22px;
+      margin-bottom: 8px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      cursor: text;
+      transition: $transition_1;
+    }
+
+    .formGroup.checkbox {
+      margin-bottom: 20px;
+    }
+    .checkboxInput {
+      margin-right: 6px;
+    }
+
+    .submitButton {
+      width: 100%;
+    }
+  }
+}

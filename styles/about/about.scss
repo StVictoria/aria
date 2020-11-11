@@ -1,0 +1,29 @@
+.about {
+  padding: 100px 0;
+
+  &-image {
+    width: 46%;
+    height: auto;
+    overflow: hidden;
+
+    img {
+      border-radius: 4px;
+      width: 100%;
+    }
+  }
+
+  &-text {
+    width: 47%;
+    margin-bottom: 16px;
+    padding-right: 40px;
+    box-sizing: border-box;
+
+    p {
+      margin-bottom: 16px;
+    }
+  }
+
+  &-infoList {
+    margin-bottom: 36px;
+  }
+}

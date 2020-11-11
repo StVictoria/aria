@@ -1,0 +1,86 @@
+.mainInfo {
+  width: 100%;
+}
+
+.mainInfo-image {
+  width: 50%;
+  height: 554px;
+}
+
+.mainInfo-image.block1 {
+  background: url("/images/details-1-background.jpg") center center/cover no-repeat;
+}
+
+.mainInfo-image.block2 {
+  background: url("/images/details-2-background.jpg") center center/cover no-repeat;
+}
+
+.mainInfo-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  padding: 100px 225px 100px 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainInfo-text h2 {
+  margin-bottom: 26px;
+}
+
+.mainInfo-accordionButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: #484a46;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+  outline-style: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.mainInfo-accordionButton:hover h3,
+.mainInfo-accordionButton:hover .mainInfo-circleNum {
+  color: #14bf98;
+  border-color: #14bf98;
+}
+
+.mainInfo-accordionButton h3 {
+  font-size: 20px;
+}
+
+.mainInfo-circleNum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 14px;
+  border: 2px solid #484a46;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+/*# sourceMappingURL=mainInfo.css.map */

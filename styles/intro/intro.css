@@ -1,0 +1,41 @@
+.intro {
+  padding: 110px 0 48px 0;
+}
+
+.intro-main {
+  width: 35%;
+  padding: 40px 0 40px 0;
+}
+
+.intro-mainText, .intro-quote {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.intro-quoteAuthor {
+  color: #484a46;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.intro-image {
+  width: 60%;
+  height: auto;
+  margin: -50px;
+  overflow: hidden;
+}
+
+.intro-image img {
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.intro-image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=intro.css.map */

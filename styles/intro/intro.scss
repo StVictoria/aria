@@ -1,0 +1,40 @@
+@import "../_constants/constants.scss";
+
+.intro {
+  padding: 110px 0 48px 0;
+
+  &-main {
+    width: 35%;
+    padding: 40px 0 40px 0;
+  }
+
+  &-mainText,
+  &-quote {
+    font-family: "Open Sans", sans-serif;
+    font-size: $mid_size;
+    font-weight: 400;
+    margin-bottom: 16px;
+  }
+
+  &-quoteAuthor {
+    color: $black_color;
+    font-family: "Montserrat", sans-serif;
+    font-size: $mid_size;
+    font-weight: 700;
+  }
+
+  &-image {
+    width: 60%;
+    height: auto;
+    margin: -50px;
+    overflow: hidden;
+    img {
+      border-radius: 4px;
+      transition: $transition_1;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
